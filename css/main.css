@@ -1,0 +1,452 @@
+*{
+    margin:0;
+    padding:0;}
+
+body{
+    background-color:#BDB76B;}
+
+#wrapp {
+    width:92vw;
+    margin:10px auto;
+    height: auto;
+    background-color:snow;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+    overflow: hidden;
+}
+
+/*sco mreže*/
+#soc{
+	width:auto;
+	height:auto;
+	background:black;
+	border-radius:10px;
+	margin-top:0%;
+    margin-left: 97%;
+	position:fixed;
+	box-shadow: 5px 5px 5px #BDB76B inset;
+    opacity: 0.6;
+}
+
+.mreze{
+	width:30px;
+	height:30px;
+	text-align:center;
+	margin:5px;
+	background-color:beige;
+    border-radius: 10px;
+	float:left;
+    overflow: hidden;
+}
+.mreze:hover{
+    background-color:snow;
+    border-radius: 10px;
+}
+/*soc mreže kraj*/
+
+header{
+    width: 100%;
+    height: 150px;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+#logo{
+    width: 100%;
+    height: 150px;
+}
+
+/* ovo je meni koji se nalazi na putu */
+
+#navmen{
+    width:auto;
+    height:25px;
+    margin-top: -90px;
+    margin-right: 50px;
+    position:relative;
+    float: right;
+}
+
+#navmen li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+#navmen li a{
+    font-family:georgia;
+    font-size:1.1em;
+    color: white;
+    text-decoration: none;
+    line-height: 5px;
+}
+#navmen a:hover{
+    background-color:white;
+    color:black;
+    }
+#navmen a:active{
+    color: white;
+}
+
+#naslov{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-family:georgia;
+    font-size: 1.2em;
+    background-color: beige;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+}
+.podnaslov{
+    width: 90%;
+    height: 25px;
+    margin: 0 auto;
+    color: beige;
+    text-align: center;
+    font-family:georgia;
+    background-color: #BDB76B;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.podnaslov:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #BDB76B;
+    background-color: snow;
+    margin-left:10px;
+    margin-top: 10px;
+    overflow: hidden;
+    float: left;
+    border-radius: 50%;
+}
+.box img{
+    width: 250px;;
+    height: 250px;
+}
+.box p{
+    text-align: center;
+}
+.box a{
+    color: black;
+    text-decoration: none;
+}
+
+.box:hover {
+    background-color:#BDB76B;
+    border: 1px solid snow;
+}
+
+#lbox{
+    width:22vw;
+    height:100vh;
+    background-color: snow;
+    float: left;
+    margin: 10px;
+    border: 1px solid #BDB76B;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #BDB76B inset;
+    overflow: hidden;
+    line-height: 30px;
+}
+#lbox li{
+    margin: 3px;
+    }
+    
+.lpodnaslov{
+    width:auto;
+    height: 25px;
+    text-align: center;
+    font-family:georgia;
+    background-color: snow;
+    box-shadow: 3px 3px 3px #BDB76B inset;
+}
+/*boksovi u levom boksu*/
+.lokbox{
+    width: 25%;
+    height: 250px;
+    border: 1px solid #BDB76B;
+    background-color: snow;
+    margin-left:10px;
+    margin-top: 10px;
+    overflow: hidden;
+    float: left;
+    border-radius: 50%;
+}
+
+/*-- stil za leteci menu ----------------------*/
+
+nav {
+    background-color:black;
+    margin: 0;
+}
+
+.fixed{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    float: left
+}
+
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color:#BDB76B;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    font-family: georgia;
+    font-size:1.1em;
+    line-height: 5px;
+}
+
+nav ul li a:hover {
+    background-color:white;
+    color: black;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+}
+
+/*-----kraj-----stil za leteci menu--------kraj---------*/
+
+#slikaonama{
+    width: 398px;
+    height:288px;
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*_O_nama*/
+
+#o_nama{
+    width: 90%;
+    height: auto;
+    margin: 50px;
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+}
+#o_nama p{
+    margin: 20px;
+}
+
+#tekst{
+    margin:0 100px;
+}
+/* ovo je spisak gradova od a do š u levom boksu*/
+.ados{
+	margin:20px;
+	padding:5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.ados ul li a:hover{
+    border-right: 2px solid #BDB76B;
+    border-bottom: 2px solid #BDB76B;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+    border-radius: 10px;
+}
+#strelice{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    box-shadow: 3px 3px 3px black;
+}
+
+#strelice:active{
+    border-left: 2px solid #BDB76B;
+    border-top: 2px solid #BDB76B;
+    box-shadow: 2px 2px 0px black;
+}
+
+#stubac ul li {
+	list-style: none;
+}
+
+#stubac .ados a{
+	    display:block;
+		text-decoration: none;
+		font-family:georgia;
+		color:black;	
+}
+
+
+footer{
+    width:100%  ;
+    text-align:center;
+    background-color:black;
+	margin: 0 auto;
+    box-shadow: 3px 3px 3px snow inset;
+}
+/*Stil za Bograd*/
+#leftbox{
+    width: 25%;
+    height: 2000px;
+    background-color: snow;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 0px 0px #BDB76B inset;
+    overflow: hidden;
+}
+#cbox{
+    width: 50%;
+    height: 2000px;
+    background-color: snow;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 0px 0px #BDB76B inset;
+    overflow: hidden;
+}
+#rightbox{
+    width: 25%;
+    height: 2000px;
+    background-color: snow;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 3px 0px 0px #BDB76B inset;
+    overflow: hidden;
+}
+
+/*--stil kontakt---*/
+
+form{
+    margin: 10px;
+    float: left;
+}
+#prijavabox{
+    width: 20%;
+    font-family: georgia;
+    height: auto;
+    background-color: snow;
+    float: left;
+    margin: 10px;
+    border: 1px solid #BDB76B;
+    border-radius: 20px;
+    box-shadow: 3px 0px 0px #BDB76B inset;
+    overflow: hidden;
+}
+
+input[type=submit], input[type=reset]{
+    padding: 10px;
+    background-color:snow;
+    border-right: 2px solid #BDB76B;
+    border-bottom: 2px solid #BDB76B;
+    border-radius: 10px;
+    color: black;
+    font-family: georgia;
+    line-height: 5px;   
+}
+input[type=submit]:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 5px 5px 5px #BDB76B inset;
+}
+input[type=reset]:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 5px 5px 5px #BDB76B inset;}
+input[type=submit]:active{
+    color: #BDB76B;
+}
+input[type=reset]:active{
+    color: #BDB76B;}
+
+#kontakt{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: georgia;
+    width: 60%;
+    height: 30%;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+#mreze{
+    width: 280px;
+    height: 50px;
+    margin:10px auto;}
+.rupa{
+    width: 100%;
+    height: 200px;
+}
+
+/* SLAJDER*/
+#current{
+    width: 100%;
+    height: 500px;
+}
+#slajder{
+    width: 100%;
+    height: 500px;
+    margin-top: -40px;
+    float: left;
+}
+#transbox {
+    width: 100%;
+    height: auto;
+    background: black;
+    opacity: 0.5;
+    margin-top:-25%;
+}
+#transbox h1{
+    font-family:georgia;
+    text-align:center;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 5em;
+    color: white;
+}
+#transbox p, a{
+    font-family:georgia;
+    text-align:center;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.thumb{
+display: none;
+text-align: 
+}
+/*SLAJDER KRAJ*/
+
+/*Ovo je proba za divslajder*/
+
+.kontejner{
+    background-color:beige;
+    box-shadow: 2px 2px 2px #BDB76B;
+    margin: 15px 5px 0px 10px;
+    width: 29.5vw;
+    height: 40vh;
+    float: left;
+}
+.kontejner img {
+    width: 17vw;
+    height: 30vh;
+    margin-top: 15px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+}
+/*--Kraj-- divslajder*/
